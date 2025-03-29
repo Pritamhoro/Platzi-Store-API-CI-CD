@@ -32,6 +32,7 @@ public class Test
 		System.out.println(response.getRefresh_token());
 		
 		assertNotNull(response.getAccess_token());
+		assertNotNull(response.getClass());
 	}
 	
 	@DataProvider(name="LoginTestData")
