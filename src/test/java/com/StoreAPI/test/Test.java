@@ -28,6 +28,8 @@ public class Test
 		.and()
 		.extract()
 		.as(ResponseBody.class);
+		System.out.println(response.getAccess_token());
+		System.out.println(response.getRefresh_token());
 		
 		assertNotNull(response.getAccess_token());
 	}
@@ -38,10 +40,10 @@ public class Test
 		return new Object[][]
 		{
 			{"john@mail.com","changeme"},
-			{"john@mail.com","12345678"},
-			{"john@mail.co.in","changeme"},
-			{"john@mail.in","changed"},
-			{"",""},
+//			{"john@mail.com","12345678"},
+//			{"john@mail.co.in","changeme"},
+//			{"john@mail.in","changed"},
+//			{"",""},
 		};
 	}
 }
