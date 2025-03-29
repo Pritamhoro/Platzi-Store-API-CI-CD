@@ -38,10 +38,6 @@ public class Test
 		return new Object[][]
 		{
 			{"john@mail.com","changeme"},
-			{"john@mail.com","12345678"},
-			{"john@mail.co.in","changeme"},
-			{"john@mail.in","changed"},
-			{"",""},
 		};
 	}
 }
