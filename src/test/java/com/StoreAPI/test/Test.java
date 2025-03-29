@@ -22,6 +22,7 @@ public class Test
 		.assertThat()
 		.header("Content-Type", "application/json; charset=utf-8")
 		.header("Server", "Cowboy")
+		.header("Connection", "keep-alive")
 		.statusCode(201)
 		.log()
 		.all()
