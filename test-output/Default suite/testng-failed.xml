@@ -5,7 +5,7 @@
     <classes>
       <class name="com.StoreAPI.test.Test">
         <methods>
-          <include name="Login" invocation-numbers="1 2 3 4"/>
+          <include name="Login" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.StoreAPI.test.Test -->
     </classes>
